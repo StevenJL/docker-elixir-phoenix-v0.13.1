@@ -5,15 +5,15 @@ This is based on [marcelocg/phoenix-docker](https://github.com/marcelocg/phoenix
 To use this image in your docker-ized phoenix app start your `Dockerfile` with this:
 
 ```
-FROM hacker314159/phoenix_v0_13_1 
+FROM hacker314159/docker-elixir-phoenix-v0.13.1
 ```
 
 To just pull down this image from `hub.docker` and play around with it:
 ```shell
-docker pull hacker314159/phoenix_v0_13_1
+docker pull hacker314159/docker-elixir-phoenix-v0.13.1
 
 docker images | grep phoenix
-# hacker314159/phoenix_v0_13_1   latest  12345abcdef
+# hacker314159/docker-elixir-phoenix-v0.13.1   latest  12345abcdef
 
 docker run -ti 12345abcdef /bin/bash
 # to enter the docker container
