@@ -9,7 +9,8 @@ FROM hacker314159/docker-elixir-phoenix-v0.13.1
 ```
 
 To just pull down this image from `hub.docker` and play around with it:
-```
+
+```shell
 docker pull hacker314159/docker-elixir-phoenix-v0.13.1
 
 docker images | grep phoenix
